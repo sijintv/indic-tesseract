@@ -1,5 +1,5 @@
 # Indic Tesseract
-Repository containing tessdata, source training data and other materials and hacks for teaching Tesseract OCR Engine Malayalam.
+Repository containing tessdata, source training data and other materials and hacks for teaching Tesseract OCR Engine Indic Languages, initially Malayalam.
 
 ## Tesseract
 [Tesseract](https://github.com/tesseract-ocr/tesseract) was originally developed at Hewlett-Packard Laboratories Bristol and at Hewlett-Packard Co, Greeley Colorado between 1985 and 1994, with some more changes made in 1996 to port to Windows, and some C++izing in 1998.
