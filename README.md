@@ -9,7 +9,7 @@ In 2005 Tesseract was open sourced by HP. Since 2006 it is developed by Google.
 ## Installation
 You may need to grab some dependecies.
 
-For Ubuntu 16.04,
+For Ubuntu or Debian,
 ```bash
 sudo apt-get install libleptonica-dev libicu-dev libcairo-dev libpango1.0-dev
 ```
