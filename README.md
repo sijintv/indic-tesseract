@@ -11,7 +11,7 @@ You may need to grab some dependecies.
 
 For Ubuntu or Debian,
 ```bash
-sudo apt-get install libleptonica-dev libicu-dev libcairo-dev libpango1.0-dev
+sudo apt-get install libleptonica-dev libicu-dev libcairo-dev libpango1.0-dev automake libtool
 ```
 Now download the latest stable release of Tesseract source from [here](https://github.com/tesseract-ocr/tesseract/archive/3.04.01.zip).
 
