@@ -11,7 +11,7 @@ You may need to grab some dependecies.
 
 For Ubuntu or Debian,
 ```bash
-sudo apt-get install libleptonica-dev libicu-dev libcairo-dev libpango1.0-dev automake libtool
+sudo apt-get install libleptonica-dev libicu-dev libcairo-dev libpango1.0-dev automake libtool libtiff5-dev autoconf pkg-config libpng12-dev libjpeg8-dev zlib1g-dev
 ```
 Now download the latest stable release of Tesseract source from [here](https://github.com/tesseract-ocr/tesseract/archive/3.04.01.zip).
 
@@ -29,7 +29,26 @@ Take control over your tessdata directry.
 sudo chown `whoami` -R /usr/local/share/tessdata
 ```
 ## Running
-@TODO
+Tesseract needs language data for character regognition.
+
+Clone this repository.
+```
+git clone https://github.com/tvsijin/indic-tesseract.git
+
+```
+Copy the contents of tessdata to your local tessdata folder.
+```
+cd indic-tesseract
+cp tessdata/* /usr/local/share/tessdata/
+```
+Now you can run tesseract by,
+```
+ tesseract imagename outputbase [-l lang] [-psm pagesegmode] [configfile...]
+```
+So basic usage to do OCR on an image called 'myscan.tiff' which contains Malayalam characters, and save the result to 'out.txt' would be,
+```
+tesseract myscan.tiff out -l mal
+```
 ## Training
 @TODO
 ## Testing
