@@ -23,6 +23,7 @@ make
 sudo make install
 make training
 sudo make training-install
+sudo ldconfig
 ```
 Take control over your tessdata directry.
 ```
